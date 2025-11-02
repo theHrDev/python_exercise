@@ -12,3 +12,14 @@ def sum_cur_prev(num1,num2):
     
 
 sum_cur_prev(1,10)
+
+# Another method
+def curr_prev():
+    previous_num = 0
+    for num in range(10):
+        sum = previous_num + num
+        print(f"The sum of previous num {previous_num} and the current num {num} is {sum}")
+        previous_num = num
+
+curr_prev()
+
