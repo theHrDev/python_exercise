@@ -1,7 +1,8 @@
-num_lists = [45,50,90,30,56,67,23]
+num_lists = [45,50,90,30,56,67,49,100]
+
+maximum = 0
 for num in num_lists:
-    max = 0 
-    if num > max:
-        max = num
-    
-        
+   if num > maximum:
+       print(f"{num} is greater than {maximum}")
+       maximum = num
+print(f"maximum is {maximum}")
